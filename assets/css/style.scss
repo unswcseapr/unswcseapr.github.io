@@ -367,7 +367,7 @@ body {
 }
 
 .cd-header {
-  --header-height: 300px;
+  --header-height: 200px;
   height: var(--header-height);
   background-color: var(--cd-color-2);
 
@@ -379,7 +379,7 @@ body {
   }
 
   @include breakpoint(lg) {
-    --header-height: 350px;
+    --header-height: 240px;
   }
 }
 
